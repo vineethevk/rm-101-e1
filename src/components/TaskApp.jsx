@@ -4,6 +4,8 @@ import styles from "./taskApp.module.css";
 
 import { TaskHeader } from "./TaskHeader";
 
+import { AddTask } from "./AddTask/index";
+
 const TaskApp = () => {
   // NOTE: do not delete `data-testid` key value pair
   return (
@@ -11,6 +13,7 @@ const TaskApp = () => {
       {/* Header */}
       <TaskHeader />
       {/* Add Task */}
+      <AddTask />
       {/* Tasks */}
     </div>
   );
